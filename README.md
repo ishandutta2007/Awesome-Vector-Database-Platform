@@ -42,71 +42,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Pinecone](https://www.pinecone.io/)**  
-
-  Fully managed, serverless vector database optimized for low-latency similarity search, hybrid retrieval, and production RAG workloads with minimal operational overhead.
-
-
-
-- **[Weaviate Cloud](https://weaviate.io/)**  
-
-  Managed cloud offering of the open-source Weaviate vector database, supporting hybrid search, GraphQL, and modular embedding pipelines.
-
-
-
-- **[Qdrant Cloud](https://qdrant.tech/)**  
-
-  Managed service for the high-performance Qdrant vector database, emphasizing fast filtering, low latency, and easy scaling.
-
-
-
-- **[Zilliz Cloud (Milvus)](https://zilliz.com/)**  
-
-  Fully managed cloud service for Milvus, designed for billion-scale vector search with distributed architecture and enterprise features.
-
-
-
-- **[Chroma Cloud](https://www.trychroma.com/)**  
-
-  Hosted version of the popular open-source Chroma embedding database, geared toward rapid prototyping and production RAG applications.
-
-
-
-- **[LanceDB Cloud](https://lancedb.com/)**  
-
-  Managed offering of the LanceDB multimodal vector database built on the Lance columnar format.
-
-
-
-- **[Vespa Cloud](https://cloud.vespa.ai/)**  
-
-  Managed platform for Vespa, a large-scale search and recommendation engine with native vector and hybrid ranking capabilities.
-
-
-
-- **[Redis Cloud (Vector Search)](https://redis.io/)**  
-
-  Managed Redis with vector similarity search (RediSearch / VSS) for ultra-low-latency retrieval combined with caching and operational data.
-
-
-
-- **[Elastic Cloud (Vector Search)](https://www.elastic.co/)**  
-
-  Managed Elasticsearch/OpenSearch with dense vector (kNN) support for hybrid full-text + semantic search.
-
-
-
-- **[Astra DB / Astra DB Vector (DataStax)](https://www.datastax.com/products/datastax-astra)**  
-
-  Serverless database built on Apache Cassandra with native vector search capabilities for generative AI workloads.
-
-
-
-- **[pgvector Cloud offerings](https://github.com/pgvector/pgvector)**  
-
-  Managed PostgreSQL services (from various cloud providers) that include the pgvector extension for vector similarity search inside Postgres.
+| Platform | Description | Pricing | Free Tier Limit |
+|----------|-------------|---------|-----------------|
+| **[Pinecone](https://www.pinecone.io/)** | Fully managed, serverless vector database optimized for low-latency similarity search, hybrid retrieval, and production RAG workloads with minimal operational overhead. | Serverless usage-based or from $70/mo (Standard) | 2 GB storage, 5 indexes, 2M writes / 1M reads per month |
+| **[Weaviate Cloud](https://weaviate.io/)** | Managed cloud offering of the open-source Weaviate vector database, supporting hybrid search, GraphQL, and modular embedding pipelines. | Usage-based (Flex/Plus plans) | 1 free cluster, 100K objects, 1 GB memory, 10 GB disk |
+| **[Qdrant Cloud](https://qdrant.tech/)** | Managed service for the high-performance Qdrant vector database, emphasizing fast filtering, low latency, and easy scaling. | Usage-based | 1 free cluster, 0.5 vCPU, 1GB RAM, 4GB disk (approx 1M vectors) |
+| **[Zilliz Cloud (Milvus)](https://zilliz.com/)** | Fully managed cloud service for Milvus, designed for billion-scale vector search with distributed architecture and enterprise features. | Serverless usage-based or Dedicated | 1 free cluster, 5 GB storage, 2.5M vCUs/month, 2 collections |
+| **[Chroma Cloud](https://www.trychroma.com/)** | Hosted version of the popular open-source Chroma embedding database, geared toward rapid prototyping and production RAG applications. | Usage-based ($2.50/GiB write, $0.33/GiB storage) | $5 initial free credits (No permanent free tier) |
+| **[LanceDB Cloud](https://lancedb.com/)** | Managed offering of the LanceDB multimodal vector database built on the Lance columnar format. | Usage-based | $100 initial free credits (No permanent free tier) |
+| **[Vespa Cloud](https://cloud.vespa.ai/)** | Managed platform for Vespa, a large-scale search and recommendation engine with native vector and hybrid ranking capabilities. | Usage-based | 14-day free trial with $300 credits (No permanent free tier) |
+| **[Redis Cloud (Vector Search)](https://redis.io/)** | Managed Redis with vector similarity search (RediSearch / VSS) for ultra-low-latency retrieval combined with caching and operational data. | Usage-based Essentials plans | 30 MB memory, 100 ops/sec, 30 concurrent connections |
+| **[Elastic Cloud (Vector Search)](https://www.elastic.co/)** | Managed Elasticsearch/OpenSearch with dense vector (kNN) support for hybrid full-text + semantic search. | Starts at ~$99/month (Standard) | 14-day free trial only (No permanent free tier) |
+| **[Astra DB / Astra DB Vector (DataStax)](https://www.datastax.com/products/datastax-astra)** | Serverless database built on Apache Cassandra with native vector search capabilities for generative AI workloads. | Serverless usage-based | Up to 5 serverless databases with monthly credit allocation |
+| **[pgvector Cloud offerings](https://github.com/pgvector/pgvector)** | Managed PostgreSQL services (from various cloud providers) that include the pgvector extension for vector similarity search inside Postgres. | Varies by provider (e.g., Supabase Pro $25/mo) | Varies (e.g., Supabase Free: 500 MB storage, 2 projects) |
 
 
 
